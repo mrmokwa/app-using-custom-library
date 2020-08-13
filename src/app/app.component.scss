@@ -1,0 +1,7 @@
+$space: 1em;
+
+:host {
+  display: block;
+  padding: $space;
+  height: calc(100% - #{$space} * 2);
+}

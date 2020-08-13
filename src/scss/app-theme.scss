@@ -1,6 +1,7 @@
 @import "~@angular/material/theming";
 @import "../themes/unicorn-theme.scss";
 @import "~@mrmokwa/list/mkw-list.theme.scss";
+@import "../app/app.component.theme.scss";
 
 @include mat-core();
 @include unicorn-theme();

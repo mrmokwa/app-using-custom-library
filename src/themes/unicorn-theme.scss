@@ -4,4 +4,5 @@
   $theme: mat-light-theme($primary, $accent);
   @include angular-material-theme($theme);
   @include mkw-list-theme($theme);
+  @include app-root-theme($theme);
 }

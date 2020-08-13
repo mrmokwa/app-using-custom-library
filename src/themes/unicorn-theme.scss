@@ -1,0 +1,7 @@
+@mixin unicorn-theme() {
+  $primary: mat-palette($mat-purple);
+  $accent: mat-palette($mat-amber, A200, A100, A400);
+  $theme: mat-light-theme($primary, $accent);
+  @include angular-material-theme($theme);
+  @include mkw-list-theme($theme);
+}
